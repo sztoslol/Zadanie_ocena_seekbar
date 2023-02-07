@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <ProgressBar
-        android:id="@+id/progressBar_horizontal3"
+        android:id="@+id/progressBar_main_v"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="101dp"
         android:layout_height="583dp"
@@ -20,7 +20,7 @@
         app:layout_constraintVertical_bias="0.137" />
 
     <SeekBar
-        android:id="@+id/seek_bar_"
+        android:id="@+id/seekBar_grabat_v"
         android:layout_width="140dp"
         android:layout_height="140dp"
         android:layout_centerInParent="true"
@@ -33,7 +33,7 @@
         app:layout_constraintVertical_bias="0.385" />
 
     <SeekBar
-        android:id="@+id/seek_bar_2"
+        android:id="@+id/seekBar_gruszka_v"
         android:layout_width="140dp"
         android:layout_height="140dp"
         android:layout_centerInParent="true"
@@ -46,7 +46,7 @@
         app:layout_constraintVertical_bias="0.67" />
 
     <SeekBar
-        android:id="@+id/seekBar4"
+        android:id="@+id/seekBar_gruszka_h"
         android:layout_width="140dp"
         android:layout_height="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -57,7 +57,7 @@
         app:layout_constraintVertical_bias="0.748" />
 
     <SeekBar
-        android:id="@+id/seekBar3"
+        android:id="@+id/seekBar_granat_h"
         android:layout_width="140dp"
         android:layout_height="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -104,7 +104,7 @@
         app:srcCompat="@drawable/gruszki" />
 
     <ProgressBar
-        android:id="@+id/progressBar_horizontal"
+        android:id="@+id/progressBar_main_h"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="300dp"
         android:layout_height="20dp"
@@ -116,7 +116,7 @@
         app:layout_constraintVertical_bias="0.908" />
 
     <SeekBar
-        android:id="@+id/seekBar"
+        android:id="@+id/seekBar_jablko_h"
         android:layout_width="140dp"
         android:layout_height="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -127,7 +127,7 @@
         app:layout_constraintVertical_bias="0.275" />
 
     <SeekBar
-        android:id="@+id/seek_bar_1"
+        android:id="@+id/seekBar_jablko_v"
         android:layout_width="140dp"
         android:layout_height="140dp"
         android:layout_centerInParent="true"
