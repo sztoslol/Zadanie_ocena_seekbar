@@ -6,23 +6,44 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ProgressBar
+        android:id="@+id/progressBar_horizontal3"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="101dp"
+        android:layout_height="583dp"
+        android:rotation="270"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.137" />
+
     <SeekBar
         android:id="@+id/seek_bar_"
-        android:layout_width="167dp"
-        android:layout_height="244dp"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
         android:layout_centerInParent="true"
         android:rotation="270"
-        tools:layout_editor_absoluteX="122dp"
-        tools:layout_editor_absoluteY="173dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.385" />
 
     <SeekBar
         android:id="@+id/seek_bar_2"
-        android:layout_width="167dp"
-        android:layout_height="244dp"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
         android:layout_centerInParent="true"
         android:rotation="270"
-        tools:layout_editor_absoluteX="122dp"
-        tools:layout_editor_absoluteY="341dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.67" />
 
     <SeekBar
         android:id="@+id/seekBar4"
@@ -94,16 +115,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.908" />
 
-    <ProgressBar
-        android:id="@+id/progressBar_horizontal2"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="531dp"
-        android:layout_height="630dp"
-        android:rotation="270
-"
-        tools:layout_editor_absoluteX="107dp"
-        tools:layout_editor_absoluteY="16dp" />
-
     <SeekBar
         android:id="@+id/seekBar"
         android:layout_width="140dp"
@@ -117,11 +128,15 @@
 
     <SeekBar
         android:id="@+id/seek_bar_1"
-        android:layout_width="167dp"
-        android:layout_height="244dp"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
         android:layout_centerInParent="true"
         android:rotation="270"
-        tools:layout_editor_absoluteX="122dp"
-        tools:layout_editor_absoluteY="2dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.096" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
